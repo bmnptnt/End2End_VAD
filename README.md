@@ -42,7 +42,7 @@ pip install -r requirements.txt
 │                      ├── Arrest001_x264.mp4
 │                      ├── ...
 ```
-- 비디오 데이터에 대한 이상상황 라베이 존재할 경우, 성능 평가를 위한 Gount Truth 생성을 위해 아래와 같이 라벨 파일을 위치시켜야 합니다.
+- 비디오 데이터에 대한 이상상황 라벨이 존재할 경우, 성능 평가를 위한 Gount Truth 생성을 위해 아래와 같이 라벨 파일을 위치시켜야 합니다.
 - 라벨 파일의 형식은 'Temporal_Anomaly_Annotation_for_Testing_Videos.txt' 와 같이 프레임 단위여야합니다.
 ```
 ├── reference/
