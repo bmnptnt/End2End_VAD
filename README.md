@@ -42,7 +42,7 @@ pip install -r requirements.txt
 │                      ├── Arrest001_x264.mp4
 │                      ├── ...
 ```
-- 비디오 데이터에 대한 이상상황 라벨이 존재할 경우, 성능 평가를 위한 Gount Truth 생성을 위해 아래와 같이 라벨 파일을 위치시켜야 합니다.
+- (선택사항)비디오 데이터에 대한 이상상황 라벨이 존재할 경우, 성능 평가를 위한 Gount Truth 생성을 위해 아래와 같이 라벨 파일을 위치시켜야 합니다. 
 - 라벨 파일의 형식은 'Temporal_Anomaly_Annotation_for_Testing_Videos.txt' 와 같이 프레임 단위여야합니다.
 ```
 ├── reference/
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 - main.py 파일을 실행하여 End-to-End 로 Video Anomaly Detection 작업을 수행할 수 있습니다.
 (아래의 데이터셋 폴더명대로 프레임, 피처, gt, 결과 엑셀 파일 등이 생성됩니다. 원하는 결과명에 따라 폴더명을 변경 후 적용해주시기 바랍니다.)
 ```
-python main.py --input <데이터셋 폴더 이름> --level <하위폴더가 있을경우 2, 아닐경우 1> --label <라벨 파일 이름(필요한 경우에만 입력)>
+python main.py --input <데이터셋 폴더 이름> --level <하위폴더가 있을경우 2, 아닐경우 1> --label <(선택사항)라벨 파일 이름>
 ```
 - 아래의 예시 명령어를 활용하여 UCF-Crime Testing 데이터셋에 대한 이상상황 감지를 진행할 수 있습니다.
 ```
