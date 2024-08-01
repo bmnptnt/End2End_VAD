@@ -23,12 +23,12 @@ pip install -r requirements.txt
 ├── dataset/
 │    └── video/
 │          └── UCF_Testing/
-│                      └── Abuse/
-│                            ├── Abuse028_x264.mp4
-│                            ├── Abuse030_x264.mp4
-│                      └── Arrest/
-│                            ├── Arrest001_x264.mp4
-│                            ├── ...
+│                      ├── Abuse/
+│                      │     ├── Abuse028_x264.mp4
+│                      │     ├── Abuse030_x264.mp4
+│                      ├── Arrest/
+│                      │     ├── Arrest001_x264.mp4
+│                      │     ├── ...
 
 ```
 
