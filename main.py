@@ -25,19 +25,19 @@ if __name__ == '__main__':
     DIR_result = f"./result/{args.input}.xlsx"
 
     '''  1. 입력 비디오를 프레임 단위의 이미지로 분할  '''
-    # run_I3D_frame_split(DIR_video,DIR_frame,args.level)
+    run_I3D_frame_split(DIR_video,DIR_frame,args.level)
 
     '''  2. 프레임을 활용하여 비디오 피처 추출  '''
-    # run_I3D_feature_extraction(DIR_frame,DIR_feature,args.level)
+    run_I3D_feature_extraction(DIR_frame,DIR_feature,args.level)
 
     '''  3. 비디오 피처 리스트 파일 생성  '''
-    # run_generate_list(args.input, DIR_feature)
+    run_generate_list(args.input, DIR_feature)
 
     '''  3-1. 라벨이 존재할 경우 Grount Truth 파일 생성  '''
     DIR_gt = None
     if args.label is not None:
         DIR_label = f"./reference/{args.label}"
-        # run_generate_gt(args.input, DIR_feature, DIR_label)
+        run_generate_gt(args.input, DIR_feature, DIR_label)
         DIR_gt = f"./reference/{args.input}_gt.npy"
 
     '''  4. Anomaly Detection 시행 '''
