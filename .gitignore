@@ -1,0 +1,4 @@
+# Ignore all files in dataset/video,frame,feature
+dataset/feature
+dataset/frame
+dataset/video
