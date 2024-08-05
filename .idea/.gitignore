@@ -1,3 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Ignore all files in dataset/video,frame,feature
+dataset/feature
+dataset/frame
+dataset/video
