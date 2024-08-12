@@ -1,6 +1,7 @@
 # End2End_VAD
 This repository is End-to-End Video Anomaly Detection project.
 Follow the instructions below to detect anomalies from video and check abnormal scores.
+
 *__※ 한국어 가이드는 README_kr.md 파일을 참조하시기 바랍니다.__*
 ## Environment
 - You must install a python virtual environment of version >= 3.8 
