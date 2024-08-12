@@ -54,7 +54,7 @@ pip install -r requirements.txt
 - By running 'main.py', You canb implement End-to-End Video Anomaly Detection.
 (frame, feature, gt, result Excel file, etc. are generated as 'Name of dataset folder' below. Please change the folder name according to the desired result name and apply it.)
 ```
-python main.py --input <Name of dataset folder> --level <하위폴더가 있을경우 2, 아닐경우 1> --label <(선택사항)라벨 파일 이름>
+python main.py --input <Name of dataset folder> --level <If datset folder include sufolder 2, If datset folder include videos directly 1> --label <(optional)Name of label file>
 ```
 - By following example commands, You can implement Video Anomaly Detection in the UCF-Crime Testing dataset.
 ```
