@@ -61,7 +61,7 @@ python main.py --input UCF_Testing --level 2 --label Temporal_Anomaly_Annotation
 ```
 - 이상상황 감지 결과 엑셀파일은 ./results 폴더에 생성됩니다.
 
-## Reference
+## Acknowledgement
 - Dataset : [UCF-Crime](https://www.crcv.ucf.edu/research/real-world-anomaly-detection-in-surveillance-videos/)
 - Feature Extraction : [I3D implementation from UR-DMU](https://github.com/henrryzh1/UR-DMU/tree/master/feature_extract)
 - Video Anomaly Detection : [PEL](https://github.com/yujiangpu20/pel4vad)
