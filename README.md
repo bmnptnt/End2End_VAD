@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 
 ## Inference
-- By running 'main.py', You canb implement End-to-End Video Anomaly Detection.
+- By running 'main.py', You can implement End-to-End Video Anomaly Detection.
 (frame, feature, gt, result Excel file, etc. are generated as 'Name of dataset folder' below. Please change the folder name according to the desired result name and apply it.)
 ```
 python main.py --input <Name of dataset folder> --level <If datset folder include sufolder 2, If datset folder include videos directly 1> --label <(optional)Name of label file>
